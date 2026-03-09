@@ -1,0 +1,14 @@
+shard-spec: "0.1.0"
+version: "0.1.0"
+name: Guides
+shorthand: gide
+description: Create and manage how-to guides — single-page or multi-page instructional documents
+depends:
+  - NUU-Cognition/shard-flint
+install:
+  - source: (Dashboard) Guides.md
+    dest: Mesh/(Dashboard) Guides.md
+    once: true
+folders:
+  - Mesh/Types/Guides/
+  - Mesh/Guides/
