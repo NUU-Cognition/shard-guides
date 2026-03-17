@@ -11,6 +11,8 @@ status: [draft|review|published|deprecated]
 [agent]-sessions:
   - "[[agent-session-uuid]]"
 template: "[[tmp-gide-simple-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 # [Guide title — what the reader will learn or accomplish]

@@ -16,6 +16,8 @@ children:
 [agent]-sessions:
   - "[[agent-session-uuid]]"
 template: "[[tmp-gide-root-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 # [Guide title]

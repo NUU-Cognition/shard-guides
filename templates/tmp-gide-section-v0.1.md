@@ -13,6 +13,8 @@ parent: "[[(Guide) [Parent Name]]]"
 [agent]-sessions:
   - "[[agent-session-uuid]]"
 template: "[[tmp-gide-section-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 # [Section title — what this section covers]

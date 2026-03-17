@@ -2,6 +2,17 @@
 
 Create and manage how-to guides — instructional documents that teach readers how to accomplish specific tasks or understand specific topics. Guides come in two modes: simple single-page guides and multi-page guides with sub-sections.
 
+## Philosophy
+
+Guides are standalone, publishable artifacts. They should read coherently on their own and hold up outside the workspace context they were written in.
+
+But real readers come with knowledge gaps. A guide can be expanded over time by dropping `%%? question%%` markers inline — questions a reader (or author) would naturally ask at that point in the text. The [[wkfl-gide-expand]] workflow answers these in one pass, producing two kinds of content:
+
+- **On-topic answers** get woven directly into the prose, expanding the guide's coverage seamlessly.
+- **Prerequisite answers** get placed in aside callouts (`> [!info] Aside: ...`) — they enrich the reader's understanding without diluting the guide's core narrative.
+
+This keeps guides focused on their subject while still meeting readers where they are.
+
 ## Two Modes
 
 | Mode | Location | Naming | Use When |
@@ -73,6 +84,7 @@ draft → review → published
 |----------|------|---------|
 | Start Guide | `wkfl-gide-start.md` | Design and create a multi-page guide with review |
 | Update Guide | `wkfl-gide-update_guide.md` | Revise an existing guide's content and structure |
+| Expand Guide | `wkfl-gide-expand.md` | Answer inline `%%?...%%` markers to expand a guide in one pass |
 
 ## Templates
 
