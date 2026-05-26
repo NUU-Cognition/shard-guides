@@ -6,13 +6,12 @@ description: Create and manage how-to guides — single-page or multi-page instr
 dependencies:
   - source: NUU-Cognition/shard-flint
 types:
-  - name: Guide
-    source: type-gide-guide.md
+  - Guide
 
 install:
-  - source: (Dashboard) Guides.md
+  - source: inst-gide-dashboard.md
     dest: Mesh/(Dashboard) Guides.md
-    once: true
+    mode: once
 folders:
   - Mesh/Types/Guides/
   - Mesh/Guides/

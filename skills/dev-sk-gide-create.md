@@ -1,4 +1,6 @@
-This skill belongs to the Guides shard. Ensure you have [[init-gide]] in context before continuing.
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
+This skill belongs to the Guides shard. Ensure you have [[dev-init-gide]] in context before continuing.
 
 # Skill: Create Guide
 
@@ -14,7 +16,7 @@ Create a simple single-page guide.
 1. **Get the next guide number.**
    - Run `flint helper type newnumber Guide`
 
-2. **Create the guide file** using [[tmp-gide-simple-v0.1]].
+2. **Create the guide file** using [[dev-tmp-gide-simple-v0.1]].
    - Path: `Mesh/Types/Guides/(Guide) NNN [Name].md`
    - Set status to `draft`
    - Write the guide content based on the provided topic

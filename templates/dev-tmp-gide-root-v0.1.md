@@ -15,7 +15,7 @@ children:
   - (continue)
 [agent]-sessions:
   - "[[agent-session-uuid]]"
-template: "[[tmp-gide-root-v0.1]]"
+template: "[[dev-tmp-gide-root-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"
 ---

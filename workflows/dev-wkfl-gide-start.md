@@ -1,4 +1,6 @@
-This workflow belongs to the Guides shard. Ensure you have [[init-gide]] in context before continuing.
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
+This workflow belongs to the Guides shard. Ensure you have [[dev-init-gide]] in context before continuing.
 
 # Workflow: Start Guide
 
@@ -27,11 +29,11 @@ Once the user confirms the outline, progress to the next stage.
 
 1. **Create the guide folder** at `Mesh/Guides/(Guide) [Name]/`
 
-2. **Create the root file** using [[tmp-gide-root-v0.1]].
+2. **Create the root file** using [[dev-tmp-gide-root-v0.1]].
    - Populate the `children:` frontmatter with all planned sections
    - Fill in the Sections table
 
-3. **Create each section file** using [[tmp-gide-section-v0.1]].
+3. **Create each section file** using [[dev-tmp-gide-section-v0.1]].
    - Write the content for each section
    - Set `parent:` linking back to the root
 

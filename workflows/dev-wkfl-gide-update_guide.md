@@ -1,4 +1,6 @@
-This workflow belongs to the Guides shard. Ensure you have [[init-gide]] in context before continuing.
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
+This workflow belongs to the Guides shard. Ensure you have [[dev-init-gide]] in context before continuing.
 
 # Workflow: Update Guide
 
@@ -27,7 +29,7 @@ Once the user confirms the plan, progress to the next stage.
 ## Stage 2: Revise
 
 1. **Apply content changes** to each file identified in the plan.
-2. **Add new sections** if planned — use [[sk-gide-add_section]] for multi-page guides.
+2. **Add new sections** if planned — use [[dev-sk-gide-add_section]] for multi-page guides.
 3. **Remove or merge sections** if planned — delete files and update the parent's `children:` and sections table.
 4. **Track the session** — append your session ID to `claude-sessions` in every edited file.
 

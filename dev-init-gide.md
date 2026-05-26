@@ -6,7 +6,7 @@ Create and manage how-to guides — instructional documents that teach readers h
 
 Guides are standalone, publishable artifacts. They should read coherently on their own and hold up outside the workspace context they were written in.
 
-But real readers come with knowledge gaps. A guide can be expanded over time by dropping `%%? question%%` markers inline — questions a reader (or author) would naturally ask at that point in the text. The [[wkfl-gide-expand]] workflow answers these in one pass, producing two kinds of content:
+But real readers come with knowledge gaps. A guide can be expanded over time by dropping `%%? question%%` markers inline — questions a reader (or author) would naturally ask at that point in the text. The [[dev-wkfl-gide-expand]] workflow answers these in one pass, producing two kinds of content:
 
 - **On-topic answers** get woven directly into the prose, expanding the guide's coverage seamlessly.
 - **Prerequisite answers** get placed in aside callouts (`> [!info] Aside: ...`) — they enrich the reader's understanding without diluting the guide's core narrative.
@@ -75,21 +75,21 @@ draft → review → published
 
 | Skill | File | Purpose |
 |-------|------|---------|
-| Create Guide | `sk-gide-create.md` | Create a simple single-page guide |
-| Add Section | `sk-gide-add_section.md` | Add a sub-guide page to a multi-page guide |
+| Create Guide | `dev-sk-gide-create.md` | Create a simple single-page guide |
+| Add Section | `dev-sk-gide-add_section.md` | Add a sub-guide page to a multi-page guide |
 
 ## Workflows
 
 | Workflow | File | Purpose |
 |----------|------|---------|
-| Start Guide | `wkfl-gide-start.md` | Design and create a multi-page guide with review |
-| Update Guide | `wkfl-gide-update_guide.md` | Revise an existing guide's content and structure |
-| Expand Guide | `wkfl-gide-expand.md` | Answer inline `%%?...%%` markers to expand a guide in one pass |
+| Start Guide | `dev-wkfl-gide-start.md` | Design and create a multi-page guide with review |
+| Update Guide | `dev-wkfl-gide-update_guide.md` | Revise an existing guide's content and structure |
+| Expand Guide | `dev-wkfl-gide-expand.md` | Answer inline `%%?...%%` markers to expand a guide in one pass |
 
 ## Templates
 
 | Template | File | Purpose |
 |----------|------|---------|
-| Simple Guide | `tmp-gide-simple-v0.1.md` | Single-page guide |
-| Root Guide | `tmp-gide-root-v0.1.md` | Multi-page guide root file |
-| Section | `tmp-gide-section-v0.1.md` | Sub-guide page |
+| Simple Guide | `dev-tmp-gide-simple-v0.1.md` | Single-page guide |
+| Root Guide | `dev-tmp-gide-root-v0.1.md` | Multi-page guide root file |
+| Section | `dev-tmp-gide-section-v0.1.md` | Sub-guide page |

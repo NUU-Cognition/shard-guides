@@ -1,8 +1,10 @@
-This workflow belongs to the Guides shard. Ensure you have [[init-gide]] in context before continuing.
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
+This workflow belongs to the Guides shard. Ensure you have [[dev-init-gide]] in context before continuing.
 
 # Workflow: Expand Guide
 
-Expand a guide by answering inline `%%? question%%` markers, replacing each with authored content that flows naturally into the surrounding text. See the Philosophy section in [[init-gide]] for the on-topic vs prerequisite distinction.
+Expand a guide by answering inline `%%? question%%` markers, replacing each with authored content that flows naturally into the surrounding text. See the Philosophy section in [[dev-init-gide]] for the on-topic vs prerequisite distinction.
 
 # Input
 

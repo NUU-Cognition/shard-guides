@@ -1,4 +1,6 @@
-This skill belongs to the Guides shard. Ensure you have [[init-gide]] in context before continuing.
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
+This skill belongs to the Guides shard. Ensure you have [[dev-init-gide]] in context before continuing.
 
 # Skill: Add Section
 
@@ -15,7 +17,7 @@ Add a sub-guide page to an existing multi-page guide.
    - Check that `Mesh/Guides/(Guide) [Parent Name]/(Guide) [Parent Name].md` exists
    - Read it to understand the guide's scope and existing sections
 
-2. **Create the section file** using [[tmp-gide-section-v0.1]].
+2. **Create the section file** using [[dev-tmp-gide-section-v0.1]].
    - Path: `Mesh/Guides/(Guide) [Parent Name]/(Guide) [Parent Name] . [Section Name].md`
    - Set `parent:` to link back to the root guide
    - Set status to match the parent's status (or `draft` if the parent is `published`)
