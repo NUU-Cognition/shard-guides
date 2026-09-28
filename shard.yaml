@@ -3,13 +3,12 @@ shard: "@nuucognition/guides"
 id: 4f55c298-9525-461c-844d-81ad24a64028
 source:
   id: 288aa059-2424-414a-b9d0-68125ff2fa77
-version: "0.2.2"
+version: "0.2.3"
 name: Guides
 shorthand: gide
 description: Create and manage how-to guides — single-page or multi-page instructional documents
 dependencies:
-  - source: NUU-Cognition/shard-flint
-    version: "0.3.0"
+  "@nuucognition/flint": "^0.3"
 types:
   - Guide
 
