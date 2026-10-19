@@ -10,8 +10,8 @@ tags:
   - "#gide/section"
 status: [draft|review|published|deprecated]
 parent: "[[(Guide) [Parent Name]]]"
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-gide-section-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"

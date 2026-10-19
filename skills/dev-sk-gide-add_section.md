@@ -26,7 +26,7 @@ Add a sub-guide page to an existing multi-page guide.
    - Add the new section to the `children:` frontmatter list
    - Add a row to the Sections table in the body
 
-4. **Track the session** — append your session ID to `claude-sessions` in both the new section and the updated parent.
+4. **Track the session** — stamp your session in `orb:` of the new section and of the updated parent: run `flint address me`, and append its `by` address (quoted) to `orb:`. Add nothing only when `orb:` or `orbh-sessions` already has an item that is exactly your `by` address, `@v1/<org>/session/<uuid>`, `[[<uuid>]]`, or your bare `<uuid>`. Old notes keep `orbh-sessions`: never remove it, and add no new item to it. See [[knw-f-artifacts]] § Session Tracking.
 
 # Output
 

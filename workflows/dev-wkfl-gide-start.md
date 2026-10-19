@@ -37,7 +37,7 @@ Once the user confirms the outline, progress to the next stage.
    - Write the content for each section
    - Set `parent:` linking back to the root
 
-4. **Track the session** — append your session ID to all created files.
+4. **Track the session** — stamp your session in `orb:` of each created file: run `flint address me`, and append its `by` address (quoted) to `orb:`. Add nothing only when `orb:` or `orbh-sessions` already has an item that is exactly your `by` address, `@v1/<org>/session/<uuid>`, `[[<uuid>]]`, or your bare `<uuid>`. Old notes keep `orbh-sessions`: never remove it, and add no new item to it. See [[knw-f-artifacts]] § Session Tracking.
 
 Once all files are created, progress to the next stage.
 

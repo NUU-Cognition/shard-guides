@@ -8,8 +8,8 @@ id: [generate-uuid4]
 tags:
   - "#gide/guide"
 status: [draft|review|published|deprecated]
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-gide-simple-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"

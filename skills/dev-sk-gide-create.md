@@ -21,7 +21,7 @@ Create a simple single-page guide.
    - Set status to `draft`
    - Write the guide content based on the provided topic
 
-3. **Track the session** — append your session ID to `claude-sessions` in the frontmatter.
+3. **Track the session** — stamp your session in `orb:` of the frontmatter: run `flint address me`, and append its `by` address (quoted) to `orb:`. Add nothing only when `orb:` or `orbh-sessions` already has an item that is exactly your `by` address, `@v1/<org>/session/<uuid>`, `[[<uuid>]]`, or your bare `<uuid>`. Old notes keep `orbh-sessions`: never remove it, and add no new item to it. See [[knw-f-artifacts]] § Session Tracking.
 
 # Output
 

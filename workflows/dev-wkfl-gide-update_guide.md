@@ -31,7 +31,7 @@ Once the user confirms the plan, progress to the next stage.
 1. **Apply content changes** to each file identified in the plan.
 2. **Add new sections** if planned — use [[dev-sk-gide-add_section]] for multi-page guides.
 3. **Remove or merge sections** if planned — delete files and update the parent's `children:` and sections table.
-4. **Track the session** — append your session ID to `claude-sessions` in every edited file.
+4. **Track the session** — stamp your session in `orb:` of every edited file: run `flint address me`, and append its `by` address (quoted) to `orb:`. Add nothing only when `orb:` or `orbh-sessions` already has an item that is exactly your `by` address, `@v1/<org>/session/<uuid>`, `[[<uuid>]]`, or your bare `<uuid>`. Old notes keep `orbh-sessions`: never remove it, and add no new item to it. See [[knw-f-artifacts]] § Session Tracking.
 
 Once all changes are applied, progress to the next stage.
 

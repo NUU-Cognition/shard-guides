@@ -42,7 +42,7 @@ Once the user confirms the plan (or adjusts which questions to answer), progress
      Place the aside near the point where the prerequisite knowledge is first needed.
 
 3. **Remove all answered `%%` markers** from the document. Leave no traces.
-4. **Track the session** — append your session ID to `claude-sessions` in every edited file.
+4. **Track the session** — stamp your session in `orb:` of every edited file: run `flint address me`, and append its `by` address (quoted) to `orb:`. Add nothing only when `orb:` or `orbh-sessions` already has an item that is exactly your `by` address, `@v1/<org>/session/<uuid>`, `[[<uuid>]]`, or your bare `<uuid>`. Old notes keep `orbh-sessions`: never remove it, and add no new item to it. See [[knw-f-artifacts]] § Session Tracking.
 
 Once all markers are expanded, progress to the next stage.
 

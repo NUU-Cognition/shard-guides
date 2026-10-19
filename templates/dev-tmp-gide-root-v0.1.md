@@ -13,8 +13,8 @@ status: [draft|review|published|deprecated]
 children:
   - "[[(Guide) [Name] . [First Section]]]"
   - (continue)
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-gide-root-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"
