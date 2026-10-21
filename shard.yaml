@@ -3,7 +3,7 @@ shard: "@nuucognition/guides"
 id: 4f55c298-9525-461c-844d-81ad24a64028
 source:
   id: 288aa059-2424-414a-b9d0-68125ff2fa77
-version: "0.2.4"
+version: "0.2.5"
 name: Guides
 shorthand: gide
 description: Create and manage how-to guides — single-page or multi-page instructional documents
